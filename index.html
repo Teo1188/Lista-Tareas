@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="/js/script.js"></script>
     <link rel="stylesheet" href="/css/styles.css">
     <title>To_Do_List</title>
+    <link rel="icon" href="/images/icon.ico">
 </head>
 <body>
-    <h1>Lista de tareas</h1>
-    <input type="text" id="nuevaTarea" placeholder="Ingrese una nueva tarea" />
-    <button onclick="agregarTarea()"> Agregar Tarea </button>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="/images/icon.png.png" width="56" height="54" /></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Adiciona tu tarea" autocomplete="off">
+                <button onclick="addTask()">Añadir</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Tarea 1</li>
+                <li>Tarea 2</li>
+                <li>Tarea 3</li> -->
+            </ul>
+        </div>
+    </div>
 
-    <ul id="listaTareas">
-        
-    </ul>
-
+<script src="/js/script.js"></script>
 </body>
 </html>
