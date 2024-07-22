@@ -9,7 +9,7 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #234485, #4c1358);
+    background: linear-gradient(135deg, #4481eb, #04befe);
     padding: 10px;
 }
 
@@ -57,7 +57,7 @@ button{
     border: none;
     outline: none;
     padding:16px 50px;
-    background: #ff5945;
+    background: #ee4c1b;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
