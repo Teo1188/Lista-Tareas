@@ -9,14 +9,14 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #4481eb, #04befe);
+    background: linear-gradient(135deg, #4481eb, #b704fe);
     padding: 10px;
 }
 
 .todo-app {
     width: 100%;
     max-width: 540px;
-    background: #fff;
+    background-color: rgba(252, 251, 251, 0.5); /* Color negro con 50% de transparencia */
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
@@ -79,10 +79,10 @@ ul li::before{
     height: 28px;
     width: 28px;
     border-radius: 50%;
-    background-image: url(/images/unchecked.png.png);
+    background-image: url(/images/unchecked.png);
     background-size: cover;
     background-position: center;
-    top: 12px;
+    top: 7px;
     left: 8px;
 }
 
@@ -92,7 +92,7 @@ ul li.checked{
 }
 
 ul li.checked::before{
-    background-image: url(/images/checked.png.png);
+    background-image: url(/images/checked.png);
 }
 
 ul li span{
